@@ -77,7 +77,3 @@ $ sh gradlew bootRun
 デバッグビューを開いて、`java(Attach)`をスタートさせます。これでアプリケーションがデバッグモードで
 立ち上がります。
 
-## 記事
-
-環境構築の過程を記事にしています。
-[Spring Boot プロジェクトを Docker 上で動かす](https://zenn.dev/nishiharu/articles/7f27b8c580f896)
