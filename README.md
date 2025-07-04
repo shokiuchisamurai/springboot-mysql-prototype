@@ -49,10 +49,9 @@ Creating java  ... done
 ```
 
 ### 2.phpMyAdmin の起動確認
-
 phpMyAdmin は 4200 番ポートで起動しています。
-`http://localhost:4200/`に接続してデータを確認しておいてください。
-`sample_schema`という DB に`account`テーブルがあります。初期データの内容は`./docker/mysql/sql_init` 以下にあるファイル内のクエリに基づきます。
+- `http://localhost:4200/`にアクセスして表示を確認。
+- `sample_schema`という DB に`account`テーブルを確認（初期データの内容は`./docker/mysql/sql_init` 以下にあるファイル内のクエリに基づきます。）
 
 ### 3.Remote - Containers でコンテナ内の環境を開く
 - VSCode の画面左下に、`><`← のように括弧が合わさった緑色のボタンがあるのでそれを押してください。
@@ -63,7 +62,7 @@ phpMyAdmin は 4200 番ポートで起動しています。
 - 展開したVScodeのトップから開くを選択して、`/app`フォルダを開いてください。
 - ターミナルのタブから新しいターミナルを開く。
 - 上記手順の続きで、現在 java コンテナの`/app`ディレクトリにいる状態です。(pwdコマンドで確認)
-まずはビルドします。
+まずはビルド→実行します。
 
 ```
 $ sh gradlew build
