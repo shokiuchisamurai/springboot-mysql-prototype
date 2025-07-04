@@ -15,21 +15,23 @@
 
 ## アプリケーションの起動に必要なもの
 - Docker Desktop
-  - https://www.docker.com/ja-jp/get-started/
-  - 適宜自分のOSに合った物をインストール
+  適宜自分のOSに合った物をインストール
+  > https://www.docker.com/ja-jp/get-started/ 
 - VSCode
-  - https://azure.microsoft.com/ja-jp/products/visual-studio-code
-  - 適宜自分のOSに合った物をインストール
+  適宜自分のOSに合った物をインストール
+  > https://azure.microsoft.com/ja-jp/products/visual-studio-code
 
 ## 起動手順
 
 VSCodeに`./vscode/setting.json`に記載のある拡張機能を入れておいてください。
-- https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker
-- https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers
-- https://marketplace.visualstudio.com/items?itemName=jakebathman.mysql-syntax
+> https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker
+> 
+> https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers
+> 
+> https://marketplace.visualstudio.com/items?itemName=jakebathman.mysql-syntax
 
 自身のPCの任意のフォルダ（作業するフォルダ）にこのGithubをCloneしておいてください
-https://github.com/shokiuchisamurai/springboot-mysql-prototype
+> https://github.com/shokiuchisamurai/springboot-mysql-prototype
 
 ### 1.コンテナ起動
 - VSCodeでCloneしたフォルダを開く。
