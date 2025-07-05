@@ -30,11 +30,11 @@ VSCodeに`./vscode/setting.json`に記載のある拡張機能を入れておい
 > 
 > https://marketplace.visualstudio.com/items?itemName=jakebathman.mysql-syntax
 
-自身のPCの任意のフォルダ（作業するフォルダ）にこのGithubをCloneしておいてください
+自身のPCの任意のフォルダ（作業するフォルダ）にこのGithubをダウンロードしておいてください
 > https://github.com/shokiuchisamurai/springboot-mysql-prototype
 
 ### 1.コンテナ起動
-- VSCodeでCloneしたフォルダを開く。
+- VSCodeでダウンロードしたフォルダを開く。
 - ターミナルのタブから新しいターミナルを開く。
 - ターミナルで`springboot-mysql-prototype`フォルダに移動。(pwdコマンドで確認)
 - docker-compose.yml は`./docker`にあります。docker 関連のコマンドはここで実行してください。
