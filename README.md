@@ -16,7 +16,8 @@
 ## アプリケーションの起動に必要なもの
 - Docker Desktop
   適宜自分のOSに合った物をインストール
-  > https://www.docker.com/ja-jp/get-started/ 
+  > https://www.docker.com/ja-jp/get-started/
+  Windowsの場合AMD64でOK
 - VSCode
   適宜自分のOSに合った物をインストール
   > https://azure.microsoft.com/ja-jp/products/visual-studio-code
