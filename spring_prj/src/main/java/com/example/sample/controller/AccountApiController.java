@@ -9,13 +9,13 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("showaccount")
-public class AccountController {
+@RequestMapping("showAccountApi")
+public class AccountApiController {
     @Autowired
     AccountService accountService;
 
-    @RequestMapping(method = RequestMethod.GET)
-    List<AccountEntity> getTweet() {
+    @GetMapping("/sample")
+    public List<AccountEntity> sample() {
         return accountService.getAccount();
     }
 }
