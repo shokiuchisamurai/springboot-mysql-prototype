@@ -77,8 +77,8 @@ $ sh gradlew build
 ```
 $ java -jar build/libs/sample-0.0.1-SNAPSHOT.jar
 ```
-> http://localhost:8080/showAccountView/sample
-> http://localhost:8080/showAccountApi/sample
+- http://localhost:8080/showAccountView/sample
+- http://localhost:8080/showAccountApi/sample
 
 上記がブラウザで表示されば動作確認完了です。
 
